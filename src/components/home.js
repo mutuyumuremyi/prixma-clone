@@ -75,9 +75,9 @@ const Home=()=>{
       </li>
       <li>
         <a
-          className=" dropdown-item"href="/">Aur team</a> </li>
+          className=" dropdown-item" href="/">Aur team</a> </li>
       <li>
-        <a  className=" dropdown-item"href="/" >testimonial</a > </li>
+        <a  className=" dropdown-item" href="/" >testimonial</a > </li>
     </ul>
   </div> 
   </div>
@@ -585,10 +585,10 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
         <p className=""><i className="fa fa-envelope text-white-rgb-255  text-slate-200 hover:text-white-800 text-base">info@example.com </i></p>
          
           <div className="d-flex pt-1 text-center inline-flex">
-           <p><a className="btn btn-outline-light btn-social " ></a><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-twitter"></i><a/> </p> 
-           <p> <a className="btn btn-outline-light btn-social  "></a><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-facebook-f"></i><a/> </p> 
-           <p>  <a className="btn btn-outline-light btn-social  "></a> <i className= "text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-youtube"></i><a/></p> 
-           <p> <a className="btn btn-outline-light btn-social  " ></a><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-linkedin-in"></i><a/></p> 
+           <p><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-twitter"></i><a/> </p> 
+           <p> <i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-facebook-f"></i><a/> </p> 
+           <p>   <i className= "text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-youtube"></i><a/></p> 
+           <p><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-linkedin-in"></i><a/></p> 
         </div>
       </div>
 
