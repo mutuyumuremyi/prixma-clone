@@ -70,14 +70,14 @@ const Home=()=>{
             text-gray-700
             hover:bg-gray-100
           "
-          href="#"
+          href="/login"
           >Boking</a >
       </li>
       <li>
         <a
-          className=" dropdown-item"href="#">Aur team</a> </li>
+          className=" dropdown-item"href="/">Aur team</a> </li>
       <li>
-        <a  className=" dropdown-item"href="#" >testimonial</a > </li>
+        <a  className=" dropdown-item"href="/" >testimonial</a > </li>
     </ul>
   </div> 
   </div>
