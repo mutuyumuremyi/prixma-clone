@@ -585,10 +585,10 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
         <p className=""><i className="fa fa-envelope text-white-rgb-255  text-slate-200 hover:text-white-800 text-base">info@example.com </i></p>
          
           <div className="d-flex pt-1 text-center inline-flex">
-           <p><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-twitter"></i><a/> </p> 
-           <p> <i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-facebook-f"></i><a/> </p> 
-           <p>   <i className= "text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-youtube"></i><a/></p> 
-           <p><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-linkedin-in"></i><a/></p> 
+           <p><a className="btn btn-outline-light btn-social " ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-twitter"></i><a/> </p> 
+           <p> <a className="btn btn-outline-light btn-social  "><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-facebook-f"></i><a/> </p> 
+           <p>  <a className="btn btn-outline-light btn-social  "> <i className= "text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-youtube"></i><a/></p> 
+           <p> <a className="btn btn-outline-light btn-social  " ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-linkedin-in"></i><a/></p> 
         </div>
       </div>
 
