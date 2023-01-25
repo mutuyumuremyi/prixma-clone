@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import {
- Routes, Route, Router
+ Routes, Route
 } from "react-router-dom";
 import Home from './components/home';
 import Signin from './components/signin';
