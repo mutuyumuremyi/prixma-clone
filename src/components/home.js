@@ -1,5 +1,39 @@
 import React from "react";
 import Pic from './../images/about - Copy.png'
+import log from './../images/log.png'
+import Hero from './../images/hero (0).png'
+import Master from'./../images/master.jpg'
+import online from'./../images/online.jpg'    
+import service from './../images/service.jpg'
+import bet from './../images/bet.jpg'
+import about from './../images/about-1 - Copy.jpg'
+import apeet from './../images/apeet.jpg'
+import lampe from './../images/lampe.jpg'
+import plat from './../images/plat.jpg'
+import payme from './../images/payme.png'
+import  bt from './../images/bt.png'
+import ent from './../images/ent.png'
+import hum from './../images/hum.jpg'
+import menu from './../images/menu-1.jpg'
+import scouc from './../images/scouc.jpg'
+import meat from './../images/meat.jpg'
+import allo from './../images/allo.jpg'
+import speci from './../images/speci.jpg'
+import legume from './../images/legume.jpg'
+import chiken from './../images/chiken.jpg'
+import mg from './../images/mg.jpg'
+import chef from './../images/chef.jpg'
+import Help from './../images/help.jpg'
+import cuis from './../images/cuis.jpg'
+import souscui from './../images/souscui.jpg'
+import ce from './../images/ce.jpg'
+import fe from './../images/fe.jpg'
+import pp from './../images/pp.jpg'
+import rr from './../images/rr.jpg'
+import client from './../images/Client.jpg'
+import proffes from './../images/proffes.jpg'
+import proffession from './../images/proffession.jpg'
+import cllll from './../images/cllll.jpg'
 
 const Home=()=>{
     return(<>
@@ -8,11 +42,11 @@ const Home=()=>{
 <div className ="container: bg-white-900">
 
 
-<div className=" w-76 container mx-auto px-20: bg-gray-900">
+<div className=" w-76 container mn-auto px-10: bg-gray-900">
 
 
     <div className="grid grid grid-flow-col auto">
-      <img src={Pic} alt = "" className ="w-20 h-20 text-orange-500"/>
+      <img src={log} alt = "" className ="w-20 h-20 text-orange-500"/>
       <h2 className="text-orange-400  p-5 w-10 l-5  font-bold  text-5xl" > Restoran</h2>
 
   <div className="container  max-auto px-20">
@@ -104,7 +138,7 @@ const Home=()=>{
   
 </div>
 <div className="w-1/2">
-<img src={Pic} alt="" className=" h-76 p-2 "/> 
+<img src={Hero} alt="" className=" h-76 p-2 "/> 
 </div>
 </div>
 </div>
@@ -118,7 +152,7 @@ const Home=()=>{
 <div className="grid grid-cols-4 gap-4 flex-row-4  ">   
 
 <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
-  <img src= {Pic} alt="" />
+  <img src= {Master} alt="" />
  <p className="font-bold p-5"> Master Chefs </p>
 
   Diam elitr kasd sed  at elitr sed <br/>
@@ -126,7 +160,7 @@ const Home=()=>{
 
   <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
 
-    <img src={Pic} alt="" />
+    <img src={online} alt="" />
   <p className="font-bold p-5">Quality Food </p>
   
    Diam elitr kasd sed at elitr sed<br/>
@@ -134,7 +168,7 @@ const Home=()=>{
 
 
    <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
-    <img src={Pic} alt="" />
+    <img src={service} alt="" />
 
   <p className="font-bold p-5">Online Order </p>
   
@@ -142,7 +176,7 @@ const Home=()=>{
   ipsum justo dolor sed clita amet diam</div>
 
   <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
-    <img src={Pic} alt="" />
+    <img src={bet} alt="" />
   <p className="font-bold p-5">24/7 Service </p>
 
 
@@ -160,24 +194,24 @@ Diam elitr kasd sed at elitr sed ipsum justo<br/>
 <div className="w-76 container mx-auto px-20 : bg-white-500">
 <div className="w-1/2">
 <div className=" row -g-3">
-  <div className="flex   ">
+  <div className="flex ">
 
-    <img className=" p-3" src={Pic} alt="" width="" height=""/>
-    <img className="w-56 m-3" src={Pic} alt="" width="" height=""/>
+    <img className=" p-3" src={about} alt="" width="" height=""/>
+    <img className="w-56 m-3" src={apeet} alt="" width="" height=""/>
     </div>
   
   
     <div className=" flex ">
-    <img className="w-56 m-3"   src={Pic} alt=""width="" height=""/>
-    <img className=" p-3" src={Pic} alt=""width="" height=""/>
+    <img className="w-56 m-3"   src={lampe} alt=""width="" height=""/>
+    <img className=" p-3" src={plat} alt=""width="" height=""/>
   </div>
 </div> 
 </div>
 </div>
 </div>
-<div className="w-76 container mx-auto px-20 : bg-white-500">
+<div className="w-76 container mx-auto px-5 : bg-white-500">
 
-<div className="p-8">
+<div className=" flex p-3">
 
 <h2 className="text-yellow-200 h-30 p-5 w-10 font-bold fst-italic " >About us </h2>
 <p className="text-bg-gray-500 font-bold text-4xl"> Welcome to Restoran</p>
@@ -242,7 +276,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 
   <div className="  flex ml-72">
     
-    <img className="" src={Pic} alt="" />
+    <img className="" src={payme} alt="" />
 
     <div className="w-100  flex-column  p-3">
         <h2 className="flex  w-32">
@@ -252,7 +286,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
     </div>
 
     <div className="  flex">
-      <img className="" src={Pic} alt="" />
+      <img className="" src={bt} alt="" />
 
       <div className="w-100  flex-column  p-3">
           <h5 className="flex w-32">
@@ -262,7 +296,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
       </div>
     
       <div className="  flex">
-        <img className="" src={Pic} alt="" />
+        <img className="" src={ent} alt="" />
   
         <div className="w-100  flex-column  p-3">
             <h5 className="flex w-32">
@@ -282,7 +316,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 <div className="w-1/2">
   <div className="flex">
    <div className="w-1/6 p-3">
-     <img src={Pic} alt="" />
+     <img src={hum} alt="" />
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500 ">Chicken burger</p>
@@ -298,7 +332,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 <div className="w-1/2">
   <div className="flex">
    <div className="w-1/6 p-3">
-     <img src={Pic} alt="" />
+     <img src={menu} alt="" />
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
@@ -314,7 +348,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 <div className="w-1/2">
   <div className="flex">
    <div className="w-1/6 p-3">
-     <img src={Pic} alt=""  />
+     <img src={scouc} alt=""  />
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
@@ -329,53 +363,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 <div className="w-1/2">
   <div className="flex">
    <div className="w-1/6 p-3">
-     <img src={Pic} alt="" />
-   </div>
-   <div className="w-4/6">
-    <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
-  </div>
-  <div className="w-1/6"> 
-    <p className="font-bold border-1 border-text-orange-600 ">£115</p>
-  </div>
-</div>
-</div>
-
-
-<div className="w-1/2">
-  <div className="flex">
-   <div className="w-1/6 p-3">
-     <img src={Pic} alt="" />
-   </div>
-   <div className="w-4/6">
-    <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
-  </div>
-  <div className="w-1/6"> 
-    <p className="font-bold border-1 border-text-orange-600 ">£115</p>
-  </div>
-</div>
-</div>
-
-<div className="w-1/2">
-  <div className="flex">
-   <div className="w-1/6 p-3">
-     <img src={Pic} alt="" />
-   </div>
-   <div className="w-4/6">
-    <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
-  </div>
-  <div className="w-1/6"> 
-    <p className="font-bold border-1 border-text-orange-600 ">£115</p>
-  </div>
-</div>
-</div>
-
-<div className="w-1/2">
-  <div className="flex">
-   <div className="w-1/6 p-3">
-     <img src={Pic} alt=""/>
+     <img src={meat} alt="" />
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
@@ -391,7 +379,53 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 <div className="w-1/2">
   <div className="flex">
    <div className="w-1/6 p-3">
-     <img src={Pic} alt=""/>
+     <img src={allo} alt="" />
+   </div>
+   <div className="w-4/6">
+    <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
+    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+  </div>
+  <div className="w-1/6"> 
+    <p className="font-bold border-1 border-text-orange-600 ">£115</p>
+  </div>
+</div>
+</div>
+
+<div className="w-1/2">
+  <div className="flex">
+   <div className="w-1/6 p-3">
+     <img src={speci} alt="" />
+   </div>
+   <div className="w-4/6">
+    <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
+    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+  </div>
+  <div className="w-1/6"> 
+    <p className="font-bold border-1 border-text-orange-600 ">£115</p>
+  </div>
+</div>
+</div>
+
+<div className="w-1/2">
+  <div className="flex">
+   <div className="w-1/6 p-3">
+     <img src={legume} alt=""/>
+   </div>
+   <div className="w-4/6">
+    <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
+    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+  </div>
+  <div className="w-1/6"> 
+    <p className="font-bold border-1 border-text-orange-600 ">£115</p>
+  </div>
+</div>
+</div>
+
+
+<div className="w-1/2">
+  <div className="flex">
+   <div className="w-1/6 p-3">
+     <img src={chiken} alt=""/>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
@@ -414,7 +448,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 
 <div className="flex">
 <div className="w-1/2">
-<img src={Pic} alt="" className="w-full h-full  "/> 
+<img src={mg} alt="" className="w-full h-full  "/> 
 </div>
 
 <div className="w-1/2 bg-gray-900 p-2">
@@ -463,28 +497,28 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
     <div className="grid grid-cols-4 gap-4 flex-row-4  ">   
     
       <div className= "bg-white shadow-md hover:bg-white-255 mx-3 my-4 p-5">
-        <img src={Pic} alt="" />
+        <img src={chef} alt="" />
        <h1 className="font-bold p-5"> Full Name 
      Desingation</h1>
      </div>
     
         <div className= "bg-white shadow-md hover:bg-white-255 mx-3 my-4 p-5">
     
-          <img src="./team-2.jpg" alt="" />
+          <img src={Help} alt="" />
         <h1 className="font-bold p-5">Full Name Designation</h1> 
         
         </div>
     
     
          <div className= "bg-white shadow-md hover:bg-white-255 mx-3 my-4 p-5">
-          <img src={Pic} alt="" />
+          <img src={cuis} alt="" />
     
         <p className="font-bold p-5">Full name
           Desingation </p>
         </div>
     
         <div className= "bg-white shadow-md hover:bg-white-255 mx-3 my-4 p-5">
-          <img src={Pic} alt="" />
+          <img src={souscui} alt="" />
         <p className="font-bold p-5">Full Name Desingation </p>
     </div>
           </div> 
@@ -496,45 +530,19 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 <div className ="w-76 container mx-auto px-20: bg-w-800">
 
 <h5 className=" italic text-center text-yellow-500 text-2xl font-bold  ">Testimonial</h5>
-</div>
+
 <p className=" text-4xl text-center font-bold">Our Clients Say!!!</p>
+
 
   <div className="grid grid-cols-4 gap-4 flex-row-4  ">   
   
     <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
-      <img src={Pic} alt="" />
+      <img src={ce} alt="" />
      
     <p> Diam elitr kasd sed  at elitr sed 
       ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
       ipsum justo dolor sed clita amet diam </p>  
-      <img src={Pic} alt="" />
-      <p className="font-bold p-5"> Client Name </p>
-
-      <small className="p-5 w-20">Profession</small>
-
-    </div>
-
-    <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
-      <img src={Pic} alt="" />
-     
-    <p> Diam elitr kasd sed  at elitr sed 
-      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
-      ipsum justo dolor sed clita amet diam </p>  
-      <img src={Pic} alt=""  />
-      <p className="font-bold p-5"> Client Name </p>
-
-      <small className="p-5 w-20">Profession</small>
-
-    </div>
-
-
-    <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
-      <img src={Pic} alt="" />
-     
-    <p> Diam elitr kasd sed  at elitr sed 
-      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
-      ipsum justo dolor sed clita amet diam </p>  
-      <img src={Pic} alt="" />
+      <img src={client} alt="" />
       <p className="font-bold p-5"> Client Name </p>
 
       <small className="p-5 w-20">Profession</small>
@@ -544,23 +552,53 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 
 
     <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
-     
-        <img className="img-fluid rounded-lg " src="img/team-1.jpg" alt=""/>
-      
-      <img src={Pic} alt="" />
+      <img src={ce} alt="" />
      
     <p> Diam elitr kasd sed  at elitr sed 
-      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed<br/>
+      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
       ipsum justo dolor sed clita amet diam </p>  
-      <img src={Pic} alt="" />
+      <img src={proffession} alt="" />
       <p className="font-bold p-5"> Client Name </p>
 
       <small className="p-5 w-20">Profession</small>
 
     </div>
+
+    <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
+      <img src={ce} alt="" />
+     
+    <p> Diam elitr kasd sed  at elitr sed 
+      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
+      ipsum justo dolor sed clita amet diam </p>  
+      <img src={proffes} alt="" />
+      <p className="font-bold p-5"> Client Name </p>
+
+      <small className="p-5 w-20">Profession</small>
+
+    </div>
+
+
+    <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
+      <img src={ce} alt="" />
+     
+    <p> Diam elitr kasd sed  at elitr sed 
+      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
+      ipsum justo dolor sed clita amet diam </p>  
+      <img src={cllll
+      } alt="" />
+      <p className="font-bold p-5"> Client Name </p>
+
+      <small className="p-5 w-20">Profession</small>
+
+    </div>
+
+
+
+
+
 
   </div> 
-
+  </div>
 
     <div className ="w-76 container mx-auto px-20: bg-gray-800">
 
@@ -586,7 +624,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
          
           <div className="d-flex pt-1 text-center inline-flex">
            <p><a className="btn btn-outline-light btn-social " href="/" ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-twitter"></i></a> </p> 
-           <p> <a className="btn btn-outline-light btn-social " href="" ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-facebook-f"></i></a> </p> 
+           <p> <a className="btn btn-outline-light btn-social " href="/npm" ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-facebook-f"></i></a> </p> 
            <p>  <a className="btn btn-outline-light btn-social  " href=""> <i className= "text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-youtube"></i></a></p> 
            <p> <a className="btn btn-outline-light btn-social  " href="" ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-linkedin-in"></i></a></p> 
         </div>
