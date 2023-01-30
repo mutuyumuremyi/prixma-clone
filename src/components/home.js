@@ -213,30 +213,28 @@ Diam elitr kasd sed at elitr sed ipsum justo<br/>
 
 <div className=" ">
 
-<p className="text-yellow-200  font-bold fst-italic " >About us </p>
-<p className="text-bg-gray-500 font-bold text-4xl"> Welcome to Restoran</p>
+<p className="text-yellow-200  font-bold fst-italic p-2 " >About us </p>
+<p className="text-bg-gray-500 font-bold text-4xl p-2"> Welcome to Restoran</p>
 
 <p className="p-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
  Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.
-
- Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. <br/>
+ Tempor erat elitr rebum at clita. <br/>Diam dolor diam ipsum sit. 
 Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, 
 sed stet lorem sit clita duo justo magna dolore erat amet</p>
 
 </div>
 <div className="flex row-g-4 ">
-<div className="w-1/2 p-8">
+<div className="w-1/2 p-5">
 <div className="border-l-4 border-orange-300 my-4 ">
 <div>
   <h2 className="flex-display-5 text-orange-300 text-2xl  font-bold ">15</h2>
   <div className="ps-5">
    <p className="mb">Years of</p>
-   <h2 className="text font-bold mb-2"> EXPERIENCE</h2>
+   <h2 className=" font-bold mb-2"> EXPERIENCE</h2>
   </div>
 </div>
-   <div className="p-2">
-   <button type="bottom " className= " bg-orange-300 m-4 px-10 p-3" >Book Table</button > 
-   </div>
+
+
  </div>
  </div>
 <div className="w-1/2  p-8">
@@ -248,11 +246,12 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 </div>
 </div>
 </div>
-<div className=" p-8 w-20">
 
 </div>
 </div>
-</div>
+<div class="p-2">
+     <button type="bottom " class= " bg-orange-300 m-4 px-10 p-3" >Book Table</button > 
+     </div>
 </div>
 
 
