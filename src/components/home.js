@@ -208,15 +208,15 @@ Diam elitr kasd sed at elitr sed ipsum justo<br/>
 </div> 
 </div>
 </div>
-</div>
-<div className="w-76 container mx-auto px-5 : bg-white-500">
 
-<div className=" flex p-3">
+<div className="container mx-auto  : bg-white-500">
 
-<h2 className="text-yellow-200 h-30 p-5 w-10 font-bold fst-italic " >About us </h2>
+<div className=" ">
+
+<p className="text-yellow-200  font-bold fst-italic " >About us </p>
 <p className="text-bg-gray-500 font-bold text-4xl"> Welcome to Restoran</p>
 
-<p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+<p className="p-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
  Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.
 
  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. <br/>
@@ -237,14 +237,9 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    <div className="p-2">
    <button type="bottom " className= " bg-orange-300 m-4 px-10 p-3" >Book Table</button > 
    </div>
-  
- 
  </div>
  </div>
-
-
-<div className="w-1/2 p-8">
-
+<div className="w-1/2  p-8">
 <div className="border-l-4 border-orange-300 my-4">
   <h2 className="flex- display-5 text-orange-300  text-2xl font-bold">50</h2>
 <div className="ps-5">
@@ -255,13 +250,10 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 </div>
 <div className=" p-8 w-20">
 
-
-
 </div>
 </div>
 </div>
-
-
+</div>
 
 
 <div className= "w-76 container mx-auto px-20 p-8">
