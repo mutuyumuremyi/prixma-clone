@@ -27,16 +27,23 @@ import Help from './../images/help.jpg'
 import cuis from './../images/cuis.jpg'
 import souscui from './../images/souscui.jpg'
 import ce from './../images/ce.jpg'
-import fe from './../images/fe.jpg'
-import pp from './../images/pp.jpg'
-import rr from './../images/rr.jpg'
-import client from './../images/Client.jpg'
-import proffes from './../images/proffes.jpg'
+import pho from './../images/pho.webp'
+import pytor from './../images/pytor.webp'
+import phot from './../images/phot.webp'
 import proffession from './../images/proffession.jpg'
-import cllll from './../images/cllll.jpg'
+import imag from './../images/imag.webp'
+import {FaRegEnvelope } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import {FaTwitterSquare  } from "react-icons/fa";
+import {FiChevronRight} from "react-icons/fi";
+import {FaPhone } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaPeriscope } from "react-icons/fa";
 
-const Home=()=>{
-    return(<>
+const Home=()=>
+
+{return(<>
+    
 
 
 <div className ="container: bg-white-900">
@@ -153,18 +160,22 @@ const Home=()=>{
 
 <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
   <img src= {Master} alt="" />
- <p className="font-bold p-5"> Master Chefs </p>
-
-  Diam elitr kasd sed  at elitr sed <br/>
-  ipsum justo dolor sed clita  </div>
+ <p className="font-bold p-5"> Master Chefs </p>Open for breakfast, lunch and dinner, 
+ this modern restaurant in Kigali serves global cuisine in an airy,
+  atrium-styled atmosphere or on a delightful,
+  al fresco terrace. 
+ 
+    </div>
 
   <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
 
     <img src={online} alt="" />
-  <p className="font-bold p-5">Quality Food </p>
+  <p className="font-bold p-5">Quality Food </p>Open for breakfast,
+   lunch and dinner, this modern restaurant in Kigali serves global cuisine in an airy,
+    atrium-styled atmosphere or on a delightful,
+   al fresco terrace.
   
-   Diam elitr kasd sed at elitr sed<br/>
-   ipsum justo dolor sed clita amet diam</div>
+  </div>
 
 
    <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
@@ -172,16 +183,19 @@ const Home=()=>{
 
   <p className="font-bold p-5">Online Order </p>
   
-  Diam elitr kasd sed at elitr sed <br/>
-  ipsum justo dolor sed clita amet diam</div>
+  Open for breakfast, lunch and dinner, 
+  this modern restaurant in Kigali serves global cuisine in an airy, 
+  atrium-styled atmosphere or on a delightful, 
+  al fresco terrace.</div>
 
   <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
     <img src={bet} alt="" />
-  <p className="font-bold p-5">24/7 Service </p>
+  <p className="font-bold p-5">24/7 Service </p>Open for breakfast, lunch and dinner,
+   this modern restaurant in Kigali serves global cuisine in an airy, 
+   atrium-styled atmosphere or on a delightful, 
+  al fresco terrace.
 
-
-Diam elitr kasd sed at elitr sed ipsum justo<br/>
-   dolor sed clita amet diam</div>
+</div>
     </div> 
   </div>
 </div>
@@ -216,11 +230,15 @@ Diam elitr kasd sed at elitr sed ipsum justo<br/>
 <p className="text-yellow-200  font-bold fst-italic p-2 " >About us </p>
 <p className="text-bg-gray-500 font-bold text-4xl p-2"> Welcome to Restoran</p>
 
-<p className="p-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
- Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.
- Tempor erat elitr rebum at clita. <br/>Diam dolor diam ipsum sit. 
-Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, 
-sed stet lorem sit clita duo justo magna dolore erat amet</p>
+<p className="p-5">Savor delectable pastas, mouthwatering risottos and flavorful, 
+authentic dishes paired with a glass of wine in our relaxed,
+ modern Italian restaurant in Kigali.
+  features fine dining with impeccable service.Open for breakfast,
+  lunch and dinner, this modern restaurant in Kigali serves global cuisine in an airy, 
+  atrium-styled atmosphere or on a delightful, 
+ al fresco terrace. Order a la carte dishes or select from the lavish buffet.
+
+ . <br/></p>
 
 </div>
 <div className="flex row-g-4 ">
@@ -250,7 +268,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
 </div>
 </div>
 <div class="p-2">
-     <button type="bottom " class= " bg-orange-300 m-4 px-10 p-3" >Book Table</button > 
+    
      </div>
 </div>
 
@@ -312,7 +330,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500 ">Chicken burger</p>
 
-    <small className="pb-8 ">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8 ">This restaurant is an ideal place to gather with friends and colleagues.</small>
   </div>
   <div className="w-1/6">
     <p className="font-bold border-1 border-bg-yellow-500 ">£115</p>
@@ -327,7 +345,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8">This restaurant is an ideal place to gather with friends and colleagues.</small>
   </div>
   <div className="w-1/6"> 
     <p className="font-bold border-1 border-text-orange-600 ">£115</p>
@@ -343,7 +361,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8">This restaurant is an ideal place to gather with friends and colleagues.</small>
   </div>
   <div className="w-1/6"> 
     <p className="font-bold border-1 border-text-orange-600 ">£115</p>
@@ -358,7 +376,8 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8">This restaurant is an ideal place 
+    to gather with friends and colleagues.</small>
   </div>
   <div className="w-1/6"> 
     <p className="font-bold border-1 border-text-orange-600 ">£115</p>
@@ -374,7 +393,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8"> </small>
   </div>
   <div className="w-1/6"> 
     <p className="font-bold border-1 border-text-orange-600 ">£115</p>
@@ -389,7 +408,7 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8">This restaurant is an ideal place to gather with friends and colleagues.</small>
   </div>
   <div className="w-1/6"> 
     <p className="font-bold border-1 border-text-orange-600 ">£115</p>
@@ -404,7 +423,8 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8">This restaurant is an ideal place to gather with 
+    friends and colleagues.r justo diam</small>
   </div>
   <div className="w-1/6"> 
     <p className="font-bold border-1 border-text-orange-600 ">£115</p>
@@ -420,7 +440,8 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
    </div>
    <div className="w-4/6">
     <p className="font-bold border-1 border-bg-gray-500">Chicken burger</p>
-    <small className="pb-8">Ipsum ipsum clita erat amet dolor justo diam</small>
+    <small className="pb-8">This restaurant is an ideal place to gather
+     with friends and colleagues.</small>
   </div>
   <div className="w-1/6"> 
     <p className="font-bold border-1 border-text-orange-600 ">£115</p>
@@ -530,14 +551,10 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
     <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
       <img src={ce} alt="" />
      
-    <p> Diam elitr kasd sed  at elitr sed 
-      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
-      ipsum justo dolor sed clita amet diam </p>  
-      <img src={client} alt="" />
-      <p className="font-bold p-5"> Client Name </p>
-
-      <small className="p-5 w-20">Profession</small>
-
+    <p> Begin your day in Kigali with specialty coffee and grab-and-go snacks, 
+      or relax on the terrace. </p>  
+      <img src={pho} alt="" />
+     
     </div>
 
 
@@ -545,26 +562,20 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
     <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
       <img src={ce} alt="" />
      
-    <p> Diam elitr kasd sed  at elitr sed 
-      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
-      ipsum justo dolor sed clita amet diam </p>  
-      <img src={proffession} alt="" />
-      <p className="font-bold p-5"> Client Name </p>
-
-      <small className="p-5 w-20">Profession</small>
+    <p> Begin your day in Kigali with specialty coffee and grab-and-go snacks,
+       or relax on the terrace.</p>  
+      <img src={pytor} alt="" />
+     
 
     </div>
 
     <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
       <img src={ce} alt="" />
      
-    <p> Diam elitr kasd sed  at elitr sed 
-      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
-      ipsum justo dolor sed clita amet diam </p>  
-      <img src={proffes} alt="" />
-      <p className="font-bold p-5"> Client Name </p>
-
-      <small className="p-5 w-20">Profession</small>
+    <p> Begin your day in Kigali with specialty coffee and grab-and-go snacks, 
+      or relax on the terrace.</p>  
+      <img src={phot} alt="" />
+     
 
     </div>
 
@@ -572,94 +583,57 @@ sed stet lorem sit clita duo justo magna dolore erat amet</p>
     <div className= "bg-white shadow-md hover:bg-orange-500 mx-3 my-4 p-5">
       <img src={ce} alt="" />
      
-    <p> Diam elitr kasd sed  at elitr sed 
-      ipsum justo dolor sed clita Diam elitr kasd sed at elitr sed
-      ipsum justo dolor sed clita amet diam </p>  
-      <img src={cllll
-      } alt="" />
-      <p className="font-bold p-5"> Client Name </p>
-
-      <small className="p-5 w-20">Profession</small>
+    <p>Begin your day in Kigali with specialty coffee and grab-and-go snacks,
+       or relax on the terrace.  </p>  
+      <img src={imag  } alt="" />
+     
 
     </div>
-
-
-
-
-
-
   </div> 
   </div>
 
+
     <div className ="w-76 container mx-auto px-20: bg-gray-800">
 
-  <div className="flex">
-      <div className=" ms-3">
+     
+
+       
+  <div className="grid grid-cols-4 gap-4 flex-row-4 ">
+
+      <div className=" ">
           <h1 className= "  text-yellow-600  font-bold ">Campany</h1>
-         <p><i className="mb-0  text-white-rgb-255  text-slate-200 hover:text-white-800 	fas fa-angle-left" >About us</i></p> 
-        
-         <p><i className="mb-0  text-white-rgb-255  text-slate-200 hover:text-white-800  	fas fa-angle-left"> Contact us</i></p>
-         <p><i className="mb-0  text-white-rgb-255  text-slate-200 hover:text-white-800 	fas fa-angle-left "> Reservation</i></p>
-        <p><i className="mb-0  text-white-rgb-255  text-slate-200 hover:text-white-800 	fas fa-angle-left "> Privacy policy</i></p>
-       <p><i className="mb-0  text-white-rgb-255  text-slate-200 hover:text-white-800 	fas fa-angle-left "> Terms & Condition</i></p>
+         <p className="flex text-gray-100  " ><FiChevronRight  /> About us </p> 
+         <p className="flex text-gray-100  "><FiChevronRight/> Contact us</p>
+         <p className="flex text-gray-100  "><FiChevronRight/> Reservation</p>
+        <p className="flex text-gray-100  "><FiChevronRight /> Privacy policy</p>
+       <p className="flex text-gray-100  "><FiChevronRight/> Terms & Condition</p>
           </div>
+<div className="">
+          <h1 className= "flex text-yellow-600 font-bold "> contact</h1> 
+         <p className="flex text-gray-100" ><FaPeriscope/> 23 Street, New York, USA </p>
+         <p className="flex text-gray-100 "><FaPhone/> +012 345 67890 </p> 
+        <p className="flex text-gray-100" ><FaRegEnvelope/>info@example.com </p>
+         </div>
 
-          </div>
-
-      <div className="x-flex align-items-center  ">
-          <h1 className= "font-italic text-yellow-600    ">contact</h1> 
-         <p className=""> <i className=" fa fa-map-marker-alttext-white-rgb-255  text-slate-200 hover:text-white-600  text-base "> 23 Street, New York, USA </i></p>
-         <p className=""><i className="fa fa-phone-alt  text-white-rgb-255  text-slate-200 hover:text-white-800 text-base "> +012 345 67890 </i></p> 
-
-        <p className=""><i className="fa fa-envelope text-white-rgb-255  text-slate-200 hover:text-white-800 text-base">info@example.com </i></p>
-         
-          <div className="d-flex pt-1 text-center inline-flex">
-           <p><a className="btn btn-outline-light btn-social " href="/" ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-twitter"></i></a> </p> 
-           <p> <a className="btn btn-outline-light btn-social " href="/npm" ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-facebook-f"></i></a> </p> 
-           <p>  <a className="btn btn-outline-light btn-social  " href=""> <i className= "text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-youtube"></i></a></p> 
-           <p> <a className="btn btn-outline-light btn-social  " href="" ><i className=" text-white-rgb-255  text-slate-200 hover:text-white-800  fab fa-linkedin-in"></i></a></p> 
-        </div>
-      </div>
-
-      <div className=" x-flex align-items-center p-3 ">
-          <h1 className= " font-italic text-yellow-600   ">Opening</h1> 
+         <div className=" ">
+          <h1 className= " font-bold  text-yellow-600   ">Opening</h1> 
           <p className=" text-white-rgb-255  text-slate-200 hover:text-white-800  "> Monday - Saturday </p>
           <p className="  text-white-rgb-255  text-slate-200 hover:text-white-800  "> 09AM - 09PM</p>
           <p className=" text-white-rgb-255  text-slate-200 hover:text-white-800  "> Sunday </p>
           <p className=" text-white-rgb-255  text-slate-200 hover:text-white-800  ">10AM - 08PM  </p>
       </div>
-
-
-      <div className="  x-flex align-items-center p-3  ">
-      <div className= "font-bold line-1 line-bg-gray-500"> 
-          <h1 className= " font-italic text-yellow-600 font-bold   ">Newletter</h1> 
-          <p className="mb-0  text-white-rgb-255  text-slate-200 hover:text-white-800 ">Dolor amet sit justo amet elitr clita  ipsum elitr est.</p>
-            <input className="border-2 p-3" type="text" placeholder="your Email"/>
-
+     
+     <div className= ""> 
+          <h1 className= " flex text-yellow-600  text-font bold ">Newletter</h1> 
+          <p className=" flex text-gray-100 "><br/>
+            .</p>
       </div>
-    </div> 
-   </div> 
-
-   <div className=" flex">
-    <p className="mb-0 text-white-rgb-255 text-slate-200 hover:text-white-800 p-2"> Your Site Name, All Right Reserved. Designed By HTML Codex </p>
-    <p className="mb-0 text-white-rgb-255 text-slate-200 hover:text-white-800 p-2"> Distributed By ThemeWagon </p>
-   </div>
-
-   <div className="w-1/2  p-2 ">
-   <div className="  flex inline-block">
-       <i className="mb-0 text-white-rgb-255 text-slate-200 hover:text-white-800 p-2"/>
-
-
-
-       <p className="mb-0 text-white-rgb-255 text-slate-200 hover:text-white-800 ">Cookies </p>
-       <p className="mb-0 text-white-rgb-255 text-slate-200 hover:text-white-800 ">Help </p>
-       <p className="mb-0 text-white-rgb-255 text-slate-200 hover:text-white-800 "> FQAs </p>
-   </div>
        </div>
-  
+       </div>
 
-</>)
-}
 
+       </>)
+       
+       }
 
 export default Home
