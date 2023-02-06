@@ -46,10 +46,10 @@ const Home=()=>
     
 
 
-<div className ="container: bg-white-900">
+<div className ="container : bg-white-900">
 
 
-<div className=" w-76 container mn-auto px-10: bg-gray-900">
+<div className=" w-full container mn-auto px-10: bg-gray-900">
 
 
     <div className="grid grid grid-flow-col auto">
@@ -153,7 +153,7 @@ const Home=()=>
 
 
 
-<div className ="w-76 container mx-auto px-20: bg-w-800">
+<div className ="w-full container mx-auto px-20: bg-w-800">
 
 
 <div className="grid grid-cols-4 gap-4 flex-row-4  ">   
@@ -205,7 +205,7 @@ const Home=()=>
 
 
 <div className="flex">
-<div className="w-76 container mx-auto px-20 : bg-white-500">
+<div className="w-full container mx-auto px-20 : bg-white-500">
 <div className="w-1/2">
 <div className=" row -g-3">
   <div className="flex ">
@@ -223,7 +223,7 @@ const Home=()=>
 </div>
 </div>
 
-<div className="container mx-auto  : bg-white-500">
+<div className=" w-full container mx-auto  : bg-white-500">
 
 <div className=" ">
 
@@ -273,7 +273,7 @@ authentic dishes paired with a glass of wine in our relaxed,
 </div>
 
 
-<div className= "w-76 container mx-auto px-20 p-8">
+<div className= "w-full container mx-auto px-20 p-8">
 
 <div className="x-flex align-items-center">
 <div className="line-r-10 line-orange-500">
@@ -319,7 +319,7 @@ authentic dishes paired with a glass of wine in our relaxed,
 </div>
 
 
-<div className= "w-76 container mx-auto px-20">
+<div className= "w-full container mx-auto px-20">
 
 <div className=" flex flex-wrap">
 <div className="w-1/2">
@@ -456,7 +456,7 @@ authentic dishes paired with a glass of wine in our relaxed,
 
 
 
-<div className= "w-76 container mx-auto px-20">
+<div className= "w-full container mx-auto px-20">
 
 <div className="flex">
 <div className="w-1/2">
@@ -488,15 +488,15 @@ authentic dishes paired with a glass of wine in our relaxed,
     </select>
   </div>
 </div>
-<input className="w-full h-30"/> Special request
-  </div>
+<input className="w-full h-30"/> <a href="/login"></a> Special request</div>
+
 </div>
 </div>
 
 
 
 
-<div className= "w-76 container mx-auto px-20">
+<div className= "w-full container mx-auto px-20">
   <div className="d-flex align-items-center p-8">
 <div className="line-r-10 line-orange-500">
   <h5 className=" italic text-center text-yellow-500 text-2xl font-bold  ">Team Members</h5>
@@ -539,7 +539,7 @@ authentic dishes paired with a glass of wine in our relaxed,
 </div>
 
 
-<div className ="w-76 container mx-auto px-20: bg-w-800">
+<div className ="w-full container mx-auto px-20: bg-w-800">
 
 <h5 className=" italic text-center text-yellow-500 text-2xl font-bold  ">Testimonial</h5>
 
@@ -593,7 +593,7 @@ authentic dishes paired with a glass of wine in our relaxed,
   </div>
 
 
-    <div className ="w-76 container mx-auto px-20: bg-gray-800">
+    <div className ="w-full container mx-auto px-20: bg-gray-800">
 
      
 
