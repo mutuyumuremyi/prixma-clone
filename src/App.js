@@ -7,6 +7,7 @@ import {
 import Home from './components/home';
 import Signin from './components/signin';
 import MENU from './components/MENU';
+
 function App() {
   return (
       <>
@@ -14,6 +15,8 @@ function App() {
         <Route  path="/" element={<Home/>}/>
         <Route path="login" element={<Signin/>}/>
         <Route path="menu" element={<MENU/>}/>
+       
+        
       </Routes>
      
       </>
